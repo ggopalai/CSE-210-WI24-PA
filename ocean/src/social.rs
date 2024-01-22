@@ -18,6 +18,7 @@ impl SocialNetwork {
     */
     pub fn add_friend(&mut self, crab_id: String, friend_id: String) -> Result<(), String> {
         unimplemented!();
+        // test 
     }
 
     /*
@@ -32,6 +33,7 @@ impl SocialNetwork {
     */
     pub fn remove_friend(&mut self, crab_id: String, friend_id: String) -> Result<(), String> {
         unimplemented!();
+        // test 
     }
 
     /*
@@ -39,6 +41,7 @@ impl SocialNetwork {
     */
     pub fn is_friend(&self, crab_id: String, friend_id: String) -> bool {
         unimplemented!();
+        // test
     }
 
 }
